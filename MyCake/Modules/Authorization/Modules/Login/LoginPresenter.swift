@@ -8,10 +8,14 @@
 import Foundation
 
 protocol LoginPresentationLogic {
-    
+    func presentFields(responce: Login.GetFields.Responce)
 }
 
 final class LoginPresenter: LoginPresentationLogic {
     
-    var viewController: LoginDisplayLogic?
+    weak var viewController: LoginDisplayLogic?
+    
+    func presentFields(responce: Login.GetFields.Responce) {
+        viewController?.diplayFields()
+    }
 }

@@ -9,6 +9,7 @@ import Foundation
 
 protocol LoginBusinessLogic {
     
+    func getFields(request: Login.GetFields.Request)
 }
 
 final class LoginInteractor: LoginBusinessLogic {
@@ -17,5 +18,9 @@ final class LoginInteractor: LoginBusinessLogic {
     
     init(presenter: LoginPresentationLogic) {
         self.presenter = presenter
+    }
+    
+    func getFields(request: Login.GetFields.Request) {
+        presenter.presentFields(responce: Login.GetFields.Responce())
     }
 }

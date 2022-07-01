@@ -187,12 +187,12 @@
 			isa = PBXGroup;
 			children = (
 				C9B3C1F7286D557F00BCA0EC /* Login */,
-				C9A35F07286B318B00293A54 /* AuthMenu */,
+				C9A35F07286B318B00293A54 /* Auth */,
 			);
 			path = Modules;
 			sourceTree = "<group>";
 		};
-		C9A35F07286B318B00293A54 /* AuthMenu */ = {
+		C9A35F07286B318B00293A54 /* Auth */ = {
 			isa = PBXGroup;
 			children = (
 				C9A35F08286B31DE00293A54 /* AuthBuilder.swift */,
@@ -205,7 +205,7 @@
 				C91C98CD286CA42800ECA9EE /* ViewModel */,
 				C91C98CF286CA44C00ECA9EE /* Provider */,
 			);
-			path = AuthMenu;
+			path = Auth;
 			sourceTree = "<group>";
 		};
 		C9A35F12286B327700293A54 /* Common */ = {

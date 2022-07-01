@@ -6,3 +6,24 @@
 //
 
 import Foundation
+
+enum Login {
+    
+    enum GetFields {
+        struct Request {
+        }
+        
+        struct Responce {
+            //let result: RequestResult<LoginModel>
+        }
+        
+        struct ViewModel {
+            //let state: ViewControllerState
+        }
+    }
+    
+    enum ViewControllerState {
+        case result(LoginViewModel)
+        case error(String)
+    }
+}
