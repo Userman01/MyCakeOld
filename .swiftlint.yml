@@ -1,4 +1,12 @@
 disabled_rules:
- - trailing_whitespace
- - nesting
-line_length: 200
+    - trailing_whitespace
+    - nesting
+excluded:
+    - Pods
+line_length:
+    warning: 150
+    error: 200
+file_length:
+    warning: 500
+    error: 1000
+
