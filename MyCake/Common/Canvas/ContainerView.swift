@@ -5,17 +5,21 @@
 //  Created by Петр Постников on 11.07.2022.
 //
 
-import SwiftUI
 import UIKit
+import SwiftUI
 
-final class ContainerView: UIViewRepresentable {
+struct ContainerView: UIViewRepresentable {
+    
+    private let view: UIView
+    
+    init(view: UIView) {
+        self.view = view
+    }
     
     func makeUIView(context: Context) -> UIView {
-        return LoginView()
+        return view
     }
     
     func updateUIView(_ uiView: UIView, context: Context) {
-        
     }
-    
 }

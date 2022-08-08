@@ -3,6 +3,9 @@ disabled_rules:
     - nesting
 excluded:
     - Pods
+    - R.generated.swift
+    - MyCakeTests
+    - MyCakeUITests
 line_length:
     warning: 150
     error: 200

@@ -6,19 +6,31 @@
 //
 
 import UIKit
+import SwiftUI
 import SnapKit
 
 final class LoginView: UIView {
     
-    lazy private var textField: TextFieldView = {
-        let textFiled = TextFieldView()
-        textFiled.translatesAutoresizingMaskIntoConstraints = false
+    private enum ViewMetrics {
+        
+        static let backgroundColor: UIColor = .backgroundColor
+    }
+    
+    lazy private var loginTextField: LoginTextFieldView = {
+        let textFiled = LoginTextFieldView()
+        textFiled.textField.placeholder = R.string.localizable.loginUsername()
+        return textFiled
+    }()
+    
+    lazy private var passwordTextField: PasswordTextFieldView = {
+        let textFiled = PasswordTextFieldView()
+        textFiled.textField.placeholder = R.string.localizable.loginPassword()
         return textFiled
     }()
     
     init() {
         super.init(frame: UIScreen.main.bounds)
-        backgroundColor = .white
+        backgroundColor = ViewMetrics.backgroundColor
         setupLayout()
     }
     
@@ -27,11 +39,24 @@ final class LoginView: UIView {
     }
     
     private func  setupLayout() {
-        addSubview(textField)
+        addSubview(loginTextField)
+        addSubview(passwordTextField)
         
-        textField.snp.makeConstraints { make in
+        loginTextField.snp.makeConstraints { make in
+            make.top.equalToSuperview().inset(200)
+            make.left.equalToSuperview().inset(50)
+        }
+        passwordTextField.snp.makeConstraints { make in
             make.top.equalToSuperview().inset(250)
             make.left.equalToSuperview().inset(50)
         }
     }
 }
+
+#if DEBUG
+struct LoginViewPreviews: PreviewProvider {
+    static var previews: some View {
+        ContainerView(view: LoginView()).edgesIgnoringSafeArea(.all)
+    }
+}
+#endif

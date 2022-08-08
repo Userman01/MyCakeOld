@@ -14,11 +14,11 @@ enum Login {
         }
         
         struct Responce {
-            //let result: RequestResult<LoginModel>
+            // let result: RequestResult<LoginModel>
         }
         
         struct ViewModel {
-            //let state: ViewControllerState
+            // let state: ViewControllerState
         }
     }
     

@@ -6,3 +6,12 @@
 //
 
 import Foundation
+import Alamofire
+
+enum APIType {
+    case firebase
+}
+
+final class APIClient {
+    
+}
