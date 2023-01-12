@@ -7,25 +7,138 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2D481A6743CF7F6BA08FF8E3 /* Pods_MyCake_MyCakeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57FCFEFA4EF1E0A58F7D85F9 /* Pods_MyCake_MyCakeTests.framework */; };
+		C91C98D3286CA4C000ECA9EE /* TextFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C91C98D2286CA4C000ECA9EE /* TextFieldView.swift */; };
+		C9413AB5289976B8000CA3D3 /* AuthCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9413AB4289976B8000CA3D3 /* AuthCoordinator.swift */; };
+		C94AF857289803620007A770 /* BaseCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C94AF856289803620007A770 /* BaseCoordinator.swift */; };
+		C94AF8592898040F0007A770 /* ApplicationCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C94AF8582898040F0007A770 /* ApplicationCoordinator.swift */; };
 		C94B482B285B09B60013A655 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C94B482A285B09B60013A655 /* AppDelegate.swift */; };
 		C94B482D285B09B60013A655 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C94B482C285B09B60013A655 /* SceneDelegate.swift */; };
 		C94B482F285B09B60013A655 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C94B482E285B09B60013A655 /* ViewController.swift */; };
-		C94B4834285B09B70013A655 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C94B4833285B09B70013A655 /* Assets.xcassets */; };
+		C94B4834285B09B70013A655 /* images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C94B4833285B09B70013A655 /* images.xcassets */; };
 		C94B4837285B09B70013A655 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C94B4835285B09B70013A655 /* LaunchScreen.storyboard */; };
+		C9782106289B8C85008295C9 /* R.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9782105289B8C85008295C9 /* R.generated.swift */; };
+		C9782108289B9181008295C9 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9782107289B9181008295C9 /* Colors.xcassets */; };
+		C9878612289B48170004B645 /* MyCakeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9878611289B48170004B645 /* MyCakeTests.swift */; };
+		C987861F289B48250004B645 /* MyCakeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C987861E289B48250004B645 /* MyCakeUITests.swift */; };
+		C9878621289B48250004B645 /* MyCakeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9878620289B48250004B645 /* MyCakeUITestsLaunchTests.swift */; };
+		C988C45C287BA78B00AE5F27 /* BaseURL.swift in Sources */ = {isa = PBXBuildFile; fileRef = C988C45B287BA78B00AE5F27 /* BaseURL.swift */; };
+		C988C45E287BCC3D00AE5F27 /* ContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C988C45D287BCC3D00AE5F27 /* ContainerView.swift */; };
+		C988C461287BE0F800AE5F27 /* ContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C988C460287BE0F800AE5F27 /* ContainerViewController.swift */; };
+		C98ECF112896CE4F00575496 /* Presentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = C98ECF102896CE4F00575496 /* Presentable.swift */; };
+		C98ECF132896D13500575496 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = C98ECF122896D13500575496 /* Router.swift */; };
+		C9920D2C289AC26300231978 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9920D2B289AC26300231978 /* UIColor.swift */; };
+		C9A35F1A286B444900293A54 /* RequestResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9A35F19286B444900293A54 /* RequestResult.swift */; };
+		C9AAFD1228A0B66E00DB27B0 /* PasswordTextFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9AAFD1128A0B66E00DB27B0 /* PasswordTextFieldView.swift */; };
+		C9AAFD1528A0C26000DB27B0 /* AuthRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9AAFD1428A0C26000DB27B0 /* AuthRouter.swift */; };
+		C9AAFD1728A1134200DB27B0 /* LoginTextFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9AAFD1628A1134200DB27B0 /* LoginTextFieldView.swift */; };
+		C9AAFD1B28A1382400DB27B0 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = C9AAFD1D28A1382400DB27B0 /* Localizable.strings */; };
+		C9B20E922899150B003F6007 /* DeepLinkOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9B20E912899150B003F6007 /* DeepLinkOption.swift */; };
+		C9B20E9528995AFB003F6007 /* CoordinatorFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9B20E9428995AFB003F6007 /* CoordinatorFactory.swift */; };
+		C9B20E9728995B0C003F6007 /* ModuleFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9B20E9628995B0C003F6007 /* ModuleFactory.swift */; };
+		C9B20E9A28995C73003F6007 /* MainCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9B20E9928995C73003F6007 /* MainCoordinator.swift */; };
+		C9B20E9C289960E6003F6007 /* TabBarCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9B20E9B289960E6003F6007 /* TabBarCoordinator.swift */; };
+		C9B3C1EB286D45DA00BCA0EC /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9B3C1EA286D45DA00BCA0EC /* APIClient.swift */; };
+		C9B3C1FC286D55AE00BCA0EC /* LoginBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9B3C1FB286D55AE00BCA0EC /* LoginBuilder.swift */; };
+		C9B3C1FE286D55BC00BCA0EC /* LoginPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9B3C1FD286D55BC00BCA0EC /* LoginPresenter.swift */; };
+		C9B3C200286D55C900BCA0EC /* LoginInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9B3C1FF286D55C900BCA0EC /* LoginInteractor.swift */; };
+		C9B3C202286D55E400BCA0EC /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9B3C201286D55E400BCA0EC /* LoginViewController.swift */; };
+		C9B3C204286D55FC00BCA0EC /* LoginDataFlow.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9B3C203286D55FC00BCA0EC /* LoginDataFlow.swift */; };
+		C9B3C206286D563E00BCA0EC /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9B3C205286D563E00BCA0EC /* LoginView.swift */; };
+		C9B3C208286D565E00BCA0EC /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9B3C207286D565E00BCA0EC /* LoginViewModel.swift */; };
+		C9B3C20B286D567900BCA0EC /* LoginModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9B3C20A286D567900BCA0EC /* LoginModel.swift */; };
+		CC7D9E70EC680778CCABEA55 /* Pods_MyCake.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E325F63D2A3DAFF004F948A2 /* Pods_MyCake.framework */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		C9878613289B48170004B645 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C94B481F285B09B50013A655 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C94B4826285B09B60013A655;
+			remoteInfo = MyCake;
+		};
+		C9878622289B48250004B645 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C94B481F285B09B50013A655 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C94B4826285B09B60013A655;
+			remoteInfo = MyCake;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		147C3A865D644FB77BF4155C /* Pods-MyCake-MyCakeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyCake-MyCakeTests.debug.xcconfig"; path = "Target Support Files/Pods-MyCake-MyCakeTests/Pods-MyCake-MyCakeTests.debug.xcconfig"; sourceTree = "<group>"; };
+		4BB582D0E8D5E3A316656D68 /* Pods-MyCake.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyCake.release.xcconfig"; path = "Target Support Files/Pods-MyCake/Pods-MyCake.release.xcconfig"; sourceTree = "<group>"; };
+		57FCFEFA4EF1E0A58F7D85F9 /* Pods_MyCake_MyCakeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyCake_MyCakeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F9DC4E472A58D9755103C0A /* Pods-MyCake-MyCakeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyCake-MyCakeTests.release.xcconfig"; path = "Target Support Files/Pods-MyCake-MyCakeTests/Pods-MyCake-MyCakeTests.release.xcconfig"; sourceTree = "<group>"; };
+		AA3B93061FD29FF4173D346D /* Pods-MyCake.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyCake.debug.xcconfig"; path = "Target Support Files/Pods-MyCake/Pods-MyCake.debug.xcconfig"; sourceTree = "<group>"; };
+		C91C98D2286CA4C000ECA9EE /* TextFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldView.swift; sourceTree = "<group>"; };
+		C9413AB4289976B8000CA3D3 /* AuthCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthCoordinator.swift; sourceTree = "<group>"; };
+		C94AF856289803620007A770 /* BaseCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseCoordinator.swift; sourceTree = "<group>"; };
+		C94AF8582898040F0007A770 /* ApplicationCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplicationCoordinator.swift; sourceTree = "<group>"; };
 		C94B4827285B09B60013A655 /* MyCake.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyCake.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C94B482A285B09B60013A655 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C94B482C285B09B60013A655 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		C94B482E285B09B60013A655 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		C94B4833285B09B70013A655 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C94B4833285B09B70013A655 /* images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = images.xcassets; sourceTree = "<group>"; };
 		C94B4836285B09B70013A655 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C94B4838285B09B70013A655 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C9782105289B8C85008295C9 /* R.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = R.generated.swift; sourceTree = SOURCE_ROOT; };
+		C9782107289B9181008295C9 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		C987860F289B48170004B645 /* MyCakeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyCakeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9878611289B48170004B645 /* MyCakeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCakeTests.swift; sourceTree = "<group>"; };
+		C987861C289B48250004B645 /* MyCakeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyCakeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C987861E289B48250004B645 /* MyCakeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCakeUITests.swift; sourceTree = "<group>"; };
+		C9878620289B48250004B645 /* MyCakeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCakeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C988C45B287BA78B00AE5F27 /* BaseURL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseURL.swift; sourceTree = "<group>"; };
+		C988C45D287BCC3D00AE5F27 /* ContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerView.swift; sourceTree = "<group>"; };
+		C988C460287BE0F800AE5F27 /* ContainerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerViewController.swift; sourceTree = "<group>"; };
+		C98ECF102896CE4F00575496 /* Presentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Presentable.swift; sourceTree = "<group>"; };
+		C98ECF122896D13500575496 /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		C9920D2B289AC26300231978 /* UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
+		C9A35F19286B444900293A54 /* RequestResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestResult.swift; sourceTree = "<group>"; };
+		C9AAFD1128A0B66E00DB27B0 /* PasswordTextFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordTextFieldView.swift; sourceTree = "<group>"; };
+		C9AAFD1428A0C26000DB27B0 /* AuthRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthRouter.swift; sourceTree = "<group>"; };
+		C9AAFD1628A1134200DB27B0 /* LoginTextFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginTextFieldView.swift; sourceTree = "<group>"; };
+		C9AAFD1C28A1382400DB27B0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		C9AAFD1E28A1385900DB27B0 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		C9AAFD1F28A1385900DB27B0 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Localizable.strings; sourceTree = "<group>"; };
+		C9B20E912899150B003F6007 /* DeepLinkOption.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeepLinkOption.swift; sourceTree = "<group>"; };
+		C9B20E9428995AFB003F6007 /* CoordinatorFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoordinatorFactory.swift; sourceTree = "<group>"; };
+		C9B20E9628995B0C003F6007 /* ModuleFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModuleFactory.swift; sourceTree = "<group>"; };
+		C9B20E9928995C73003F6007 /* MainCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCoordinator.swift; sourceTree = "<group>"; };
+		C9B20E9B289960E6003F6007 /* TabBarCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarCoordinator.swift; sourceTree = "<group>"; };
+		C9B3C1EA286D45DA00BCA0EC /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
+		C9B3C1FB286D55AE00BCA0EC /* LoginBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginBuilder.swift; sourceTree = "<group>"; };
+		C9B3C1FD286D55BC00BCA0EC /* LoginPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPresenter.swift; sourceTree = "<group>"; };
+		C9B3C1FF286D55C900BCA0EC /* LoginInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginInteractor.swift; sourceTree = "<group>"; };
+		C9B3C201286D55E400BCA0EC /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		C9B3C203286D55FC00BCA0EC /* LoginDataFlow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginDataFlow.swift; sourceTree = "<group>"; };
+		C9B3C205286D563E00BCA0EC /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		C9B3C207286D565E00BCA0EC /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		C9B3C20A286D567900BCA0EC /* LoginModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginModel.swift; sourceTree = "<group>"; };
+		E325F63D2A3DAFF004F948A2 /* Pods_MyCake.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyCake.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		C94B4824285B09B60013A655 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC7D9E70EC680778CCABEA55 /* Pods_MyCake.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C987860C289B48170004B645 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D481A6743CF7F6BA08FF8E3 /* Pods_MyCake_MyCakeTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9878619289B48250004B645 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -35,11 +148,42 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A99287E5A6B074A55787840A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E325F63D2A3DAFF004F948A2 /* Pods_MyCake.framework */,
+				57FCFEFA4EF1E0A58F7D85F9 /* Pods_MyCake_MyCakeTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C91C98D0286CA49C00ECA9EE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C91C98D1286CA4AA00ECA9EE /* TextField */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		C91C98D1286CA4AA00ECA9EE /* TextField */ = {
+			isa = PBXGroup;
+			children = (
+				C91C98D2286CA4C000ECA9EE /* TextFieldView.swift */,
+				C9AAFD1128A0B66E00DB27B0 /* PasswordTextFieldView.swift */,
+				C9AAFD1628A1134200DB27B0 /* LoginTextFieldView.swift */,
+			);
+			path = TextField;
+			sourceTree = "<group>";
+		};
 		C94B481E285B09B50013A655 = {
 			isa = PBXGroup;
 			children = (
 				C94B4829285B09B60013A655 /* MyCake */,
+				C9878610289B48170004B645 /* MyCakeTests */,
+				C987861D289B48250004B645 /* MyCakeUITests */,
 				C94B4828285B09B60013A655 /* Products */,
+				D3C066A0EC6AD4091A1CF1A5 /* Pods */,
+				A99287E5A6B074A55787840A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -47,6 +191,8 @@
 			isa = PBXGroup;
 			children = (
 				C94B4827285B09B60013A655 /* MyCake.app */,
+				C987860F289B48170004B645 /* MyCakeTests.xctest */,
+				C987861C289B48250004B645 /* MyCakeUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -54,14 +200,231 @@
 		C94B4829285B09B60013A655 /* MyCake */ = {
 			isa = PBXGroup;
 			children = (
+				C9A35F12286B327700293A54 /* Common */,
+				C9A35F14286B32FD00293A54 /* Coordinators */,
+				C9B20E93289950D6003F6007 /* Factories */,
+				C9A35F04286B2CFD00293A54 /* Modules */,
+				C9878608289B451D0004B645 /* Resources */,
+			);
+			path = MyCake;
+			sourceTree = "<group>";
+		};
+		C9878608289B451D0004B645 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
 				C94B482A285B09B60013A655 /* AppDelegate.swift */,
 				C94B482C285B09B60013A655 /* SceneDelegate.swift */,
 				C94B482E285B09B60013A655 /* ViewController.swift */,
-				C94B4833285B09B70013A655 /* Assets.xcassets */,
+				C94B4833285B09B70013A655 /* images.xcassets */,
+				C9782107289B9181008295C9 /* Colors.xcassets */,
 				C94B4835285B09B70013A655 /* LaunchScreen.storyboard */,
+				C9AAFD1D28A1382400DB27B0 /* Localizable.strings */,
+				C9782105289B8C85008295C9 /* R.generated.swift */,
 				C94B4838285B09B70013A655 /* Info.plist */,
 			);
-			path = MyCake;
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		C9878610289B48170004B645 /* MyCakeTests */ = {
+			isa = PBXGroup;
+			children = (
+				C9878611289B48170004B645 /* MyCakeTests.swift */,
+			);
+			path = MyCakeTests;
+			sourceTree = "<group>";
+		};
+		C987861D289B48250004B645 /* MyCakeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C987861E289B48250004B645 /* MyCakeUITests.swift */,
+				C9878620289B48250004B645 /* MyCakeUITestsLaunchTests.swift */,
+			);
+			path = MyCakeUITests;
+			sourceTree = "<group>";
+		};
+		C988C45A287BA75900AE5F27 /* Endpoints */ = {
+			isa = PBXGroup;
+			children = (
+				C988C45B287BA78B00AE5F27 /* BaseURL.swift */,
+			);
+			path = Endpoints;
+			sourceTree = "<group>";
+		};
+		C988C45F287BDF9F00AE5F27 /* Canvas */ = {
+			isa = PBXGroup;
+			children = (
+				C988C45D287BCC3D00AE5F27 /* ContainerView.swift */,
+				C988C460287BE0F800AE5F27 /* ContainerViewController.swift */,
+			);
+			path = Canvas;
+			sourceTree = "<group>";
+		};
+		C98ECF0F2896CE2300575496 /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				C98ECF102896CE4F00575496 /* Presentable.swift */,
+				C98ECF122896D13500575496 /* Router.swift */,
+				C94AF856289803620007A770 /* BaseCoordinator.swift */,
+				C9B20E912899150B003F6007 /* DeepLinkOption.swift */,
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		C9A35F04286B2CFD00293A54 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				C9A35F05286B2D0600293A54 /* Authorization */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		C9A35F05286B2D0600293A54 /* Authorization */ = {
+			isa = PBXGroup;
+			children = (
+				C9A35F06286B315200293A54 /* Modules */,
+			);
+			path = Authorization;
+			sourceTree = "<group>";
+		};
+		C9A35F06286B315200293A54 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				C9B3C1F7286D557F00BCA0EC /* Login */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		C9A35F12286B327700293A54 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				C98ECF0F2896CE2300575496 /* Coordinator */,
+				C988C45F287BDF9F00AE5F27 /* Canvas */,
+				C988C45A287BA75900AE5F27 /* Endpoints */,
+				C9B3C20C286D854200BCA0EC /* Extensions */,
+				C91C98D0286CA49C00ECA9EE /* Views */,
+				C9A35F18286B443600293A54 /* Models */,
+				C9A35F13286B328200293A54 /* Services */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		C9A35F13286B328200293A54 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				C9B3C1EC286D466400BCA0EC /* Network */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		C9A35F14286B32FD00293A54 /* Coordinators */ = {
+			isa = PBXGroup;
+			children = (
+				C94AF8582898040F0007A770 /* ApplicationCoordinator.swift */,
+				C9B20E9928995C73003F6007 /* MainCoordinator.swift */,
+				C9B20E9B289960E6003F6007 /* TabBarCoordinator.swift */,
+				C9413AB4289976B8000CA3D3 /* AuthCoordinator.swift */,
+				C9AAFD1328A0C1DA00DB27B0 /* Routers */,
+			);
+			path = Coordinators;
+			sourceTree = "<group>";
+		};
+		C9A35F18286B443600293A54 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C9A35F19286B444900293A54 /* RequestResult.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		C9AAFD1328A0C1DA00DB27B0 /* Routers */ = {
+			isa = PBXGroup;
+			children = (
+				C9AAFD1428A0C26000DB27B0 /* AuthRouter.swift */,
+			);
+			path = Routers;
+			sourceTree = "<group>";
+		};
+		C9B20E93289950D6003F6007 /* Factories */ = {
+			isa = PBXGroup;
+			children = (
+				C9B20E9428995AFB003F6007 /* CoordinatorFactory.swift */,
+				C9B20E9628995B0C003F6007 /* ModuleFactory.swift */,
+			);
+			path = Factories;
+			sourceTree = "<group>";
+		};
+		C9B3C1EC286D466400BCA0EC /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				C9B3C1EA286D45DA00BCA0EC /* APIClient.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		C9B3C1F7286D557F00BCA0EC /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				C9B3C1FB286D55AE00BCA0EC /* LoginBuilder.swift */,
+				C9B3C201286D55E400BCA0EC /* LoginViewController.swift */,
+				C9B3C1FF286D55C900BCA0EC /* LoginInteractor.swift */,
+				C9B3C1FD286D55BC00BCA0EC /* LoginPresenter.swift */,
+				C9B3C203286D55FC00BCA0EC /* LoginDataFlow.swift */,
+				C9B3C1F9286D559600BCA0EC /* View */,
+				C9B3C1FA286D559E00BCA0EC /* Model */,
+				C9B3C209286D566800BCA0EC /* ViewModel */,
+				C9B3C1F8286D558F00BCA0EC /* Provider */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		C9B3C1F8286D558F00BCA0EC /* Provider */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Provider;
+			sourceTree = "<group>";
+		};
+		C9B3C1F9286D559600BCA0EC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C9B3C205286D563E00BCA0EC /* LoginView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C9B3C1FA286D559E00BCA0EC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C9B3C20A286D567900BCA0EC /* LoginModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C9B3C209286D566800BCA0EC /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				C9B3C207286D565E00BCA0EC /* LoginViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		C9B3C20C286D854200BCA0EC /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				C9920D2B289AC26300231978 /* UIColor.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		D3C066A0EC6AD4091A1CF1A5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AA3B93061FD29FF4173D346D /* Pods-MyCake.debug.xcconfig */,
+				4BB582D0E8D5E3A316656D68 /* Pods-MyCake.release.xcconfig */,
+				147C3A865D644FB77BF4155C /* Pods-MyCake-MyCakeTests.debug.xcconfig */,
+				5F9DC4E472A58D9755103C0A /* Pods-MyCake-MyCakeTests.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +434,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C94B483B285B09B70013A655 /* Build configuration list for PBXNativeTarget "MyCake" */;
 			buildPhases = (
+				5C58D6E6B8A109A24C53E99C /* [CP] Check Pods Manifest.lock */,
+				C9782104289B8B04008295C9 /* R.Swift Run Script */,
 				C94B4823285B09B60013A655 /* Sources */,
 				C94B4824285B09B60013A655 /* Frameworks */,
 				C94B4825285B09B60013A655 /* Resources */,
+				C9A35F02286A9F1A00293A54 /* Swiftlint Run Script */,
+				6D6D3D09A1E342A1D63B5650 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -83,6 +450,44 @@
 			productName = MyCake;
 			productReference = C94B4827285B09B60013A655 /* MyCake.app */;
 			productType = "com.apple.product-type.application";
+		};
+		C987860E289B48170004B645 /* MyCakeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C9878615289B48170004B645 /* Build configuration list for PBXNativeTarget "MyCakeTests" */;
+			buildPhases = (
+				A280F2AFC77A6DEC6A55F017 /* [CP] Check Pods Manifest.lock */,
+				C987860B289B48170004B645 /* Sources */,
+				C987860C289B48170004B645 /* Frameworks */,
+				C987860D289B48170004B645 /* Resources */,
+				6003698091892126594F76FC /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C9878614289B48170004B645 /* PBXTargetDependency */,
+			);
+			name = MyCakeTests;
+			productName = MyCakeTests;
+			productReference = C987860F289B48170004B645 /* MyCakeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C987861B289B48250004B645 /* MyCakeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C9878624289B48250004B645 /* Build configuration list for PBXNativeTarget "MyCakeUITests" */;
+			buildPhases = (
+				C9878618289B48250004B645 /* Sources */,
+				C9878619289B48250004B645 /* Frameworks */,
+				C987861A289B48250004B645 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C9878623289B48250004B645 /* PBXTargetDependency */,
+			);
+			name = MyCakeUITests;
+			productName = MyCakeUITests;
+			productReference = C987861C289B48250004B645 /* MyCakeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
@@ -97,6 +502,14 @@
 					C94B4826285B09B60013A655 = {
 						CreatedOnToolsVersion = 13.4.1;
 					};
+					C987860E289B48170004B645 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = C94B4826285B09B60013A655;
+					};
+					C987861B289B48250004B645 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = C94B4826285B09B60013A655;
+					};
 				};
 			};
 			buildConfigurationList = C94B4822285B09B50013A655 /* Build configuration list for PBXProject "MyCake" */;
@@ -106,6 +519,7 @@
 			knownRegions = (
 				en,
 				Base,
+				ru,
 			);
 			mainGroup = C94B481E285B09B50013A655;
 			productRefGroup = C94B4828285B09B60013A655 /* Products */;
@@ -113,6 +527,8 @@
 			projectRoot = "";
 			targets = (
 				C94B4826285B09B60013A655 /* MyCake */,
+				C987860E289B48170004B645 /* MyCakeTests */,
+				C987861B289B48250004B645 /* MyCakeUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -122,33 +538,237 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C9782108289B9181008295C9 /* Colors.xcassets in Resources */,
+				C9AAFD1B28A1382400DB27B0 /* Localizable.strings in Resources */,
 				C94B4837285B09B70013A655 /* LaunchScreen.storyboard in Resources */,
-				C94B4834285B09B70013A655 /* Assets.xcassets in Resources */,
+				C94B4834285B09B70013A655 /* images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C987860D289B48170004B645 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C987861A289B48250004B645 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5C58D6E6B8A109A24C53E99C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MyCake-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6003698091892126594F76FC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MyCake-MyCakeTests/Pods-MyCake-MyCakeTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MyCake-MyCakeTests/Pods-MyCake-MyCakeTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MyCake-MyCakeTests/Pods-MyCake-MyCakeTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6D6D3D09A1E342A1D63B5650 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MyCake/Pods-MyCake-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MyCake/Pods-MyCake-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MyCake/Pods-MyCake-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A280F2AFC77A6DEC6A55F017 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MyCake-MyCakeTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C9782104289B8B04008295C9 /* R.Swift Run Script */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "R.Swift Run Script";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				$SRCROOT/R.generated.swift,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"$PODS_ROOT/R.swift/rswift\" generate \"$SRCROOT/R.generated.swift\"\n";
+		};
+		C9A35F02286A9F1A00293A54 /* Swiftlint Run Script */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Swiftlint Run Script";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export PATH=\"$PATH:/opt/homebrew/bin\"\nif which swiftlint > /dev/null; then\n  swiftlint\nelse\n  echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		C94B4823285B09B60013A655 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C988C45E287BCC3D00AE5F27 /* ContainerView.swift in Sources */,
+				C9920D2C289AC26300231978 /* UIColor.swift in Sources */,
+				C9B20E922899150B003F6007 /* DeepLinkOption.swift in Sources */,
+				C9B20E9C289960E6003F6007 /* TabBarCoordinator.swift in Sources */,
+				C9B3C202286D55E400BCA0EC /* LoginViewController.swift in Sources */,
+				C988C461287BE0F800AE5F27 /* ContainerViewController.swift in Sources */,
+				C9A35F1A286B444900293A54 /* RequestResult.swift in Sources */,
+				C9AAFD1228A0B66E00DB27B0 /* PasswordTextFieldView.swift in Sources */,
 				C94B482F285B09B60013A655 /* ViewController.swift in Sources */,
+				C988C45C287BA78B00AE5F27 /* BaseURL.swift in Sources */,
+				C9B3C206286D563E00BCA0EC /* LoginView.swift in Sources */,
+				C9B3C1FE286D55BC00BCA0EC /* LoginPresenter.swift in Sources */,
+				C9782106289B8C85008295C9 /* R.generated.swift in Sources */,
+				C91C98D3286CA4C000ECA9EE /* TextFieldView.swift in Sources */,
+				C9AAFD1528A0C26000DB27B0 /* AuthRouter.swift in Sources */,
+				C9B3C20B286D567900BCA0EC /* LoginModel.swift in Sources */,
+				C9AAFD1728A1134200DB27B0 /* LoginTextFieldView.swift in Sources */,
+				C9B20E9528995AFB003F6007 /* CoordinatorFactory.swift in Sources */,
+				C9B3C200286D55C900BCA0EC /* LoginInteractor.swift in Sources */,
+				C94AF8592898040F0007A770 /* ApplicationCoordinator.swift in Sources */,
 				C94B482B285B09B60013A655 /* AppDelegate.swift in Sources */,
+				C94AF857289803620007A770 /* BaseCoordinator.swift in Sources */,
 				C94B482D285B09B60013A655 /* SceneDelegate.swift in Sources */,
+				C9B20E9A28995C73003F6007 /* MainCoordinator.swift in Sources */,
+				C98ECF132896D13500575496 /* Router.swift in Sources */,
+				C9B20E9728995B0C003F6007 /* ModuleFactory.swift in Sources */,
+				C9B3C1FC286D55AE00BCA0EC /* LoginBuilder.swift in Sources */,
+				C9413AB5289976B8000CA3D3 /* AuthCoordinator.swift in Sources */,
+				C9B3C208286D565E00BCA0EC /* LoginViewModel.swift in Sources */,
+				C9B3C1EB286D45DA00BCA0EC /* APIClient.swift in Sources */,
+				C98ECF112896CE4F00575496 /* Presentable.swift in Sources */,
+				C9B3C204286D55FC00BCA0EC /* LoginDataFlow.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C987860B289B48170004B645 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9878612289B48170004B645 /* MyCakeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9878618289B48250004B645 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9878621289B48250004B645 /* MyCakeUITestsLaunchTests.swift in Sources */,
+				C987861F289B48250004B645 /* MyCakeUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C9878614289B48170004B645 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C94B4826285B09B60013A655 /* MyCake */;
+			targetProxy = C9878613289B48170004B645 /* PBXContainerItemProxy */;
+		};
+		C9878623289B48250004B645 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C94B4826285B09B60013A655 /* MyCake */;
+			targetProxy = C9878622289B48250004B645 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		C94B4835285B09B70013A655 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				C94B4836285B09B70013A655 /* Base */,
+				C9AAFD1E28A1385900DB27B0 /* ru */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		C9AAFD1D28A1382400DB27B0 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C9AAFD1C28A1382400DB27B0 /* en */,
+				C9AAFD1F28A1385900DB27B0 /* ru */,
+			);
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -158,6 +778,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
@@ -218,6 +839,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
@@ -270,6 +892,7 @@
 		};
 		C94B483C285B09B70013A655 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA3B93061FD29FF4173D346D /* Pods-MyCake.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -277,9 +900,10 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 733T3VK6AH;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = MyCake/Info.plist;
+				INFOPLIST_FILE = MyCake/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
@@ -298,6 +922,7 @@
 		};
 		C94B483D285B09B70013A655 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4BB582D0E8D5E3A316656D68 /* Pods-MyCake.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -305,9 +930,10 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 733T3VK6AH;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = MyCake/Info.plist;
+				INFOPLIST_FILE = MyCake/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
@@ -321,6 +947,78 @@
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C9878616289B48170004B645 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 147C3A865D644FB77BF4155C /* Pods-MyCake-MyCakeTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 733T3VK6AH;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = postnikovp.MyCakeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyCake.app/MyCake";
+			};
+			name = Debug;
+		};
+		C9878617289B48170004B645 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5F9DC4E472A58D9755103C0A /* Pods-MyCake-MyCakeTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 733T3VK6AH;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = postnikovp.MyCakeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyCake.app/MyCake";
+			};
+			name = Release;
+		};
+		C9878625289B48250004B645 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 733T3VK6AH;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = postnikovp.MyCakeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MyCake;
+			};
+			name = Debug;
+		};
+		C9878626289B48250004B645 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 733T3VK6AH;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = postnikovp.MyCakeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MyCake;
 			};
 			name = Release;
 		};
@@ -341,6 +1039,24 @@
 			buildConfigurations = (
 				C94B483C285B09B70013A655 /* Debug */,
 				C94B483D285B09B70013A655 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C9878615289B48170004B645 /* Build configuration list for PBXNativeTarget "MyCakeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9878616289B48170004B645 /* Debug */,
+				C9878617289B48170004B645 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C9878624289B48250004B645 /* Build configuration list for PBXNativeTarget "MyCakeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9878625289B48250004B645 /* Debug */,
+				C9878626289B48250004B645 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

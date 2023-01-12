@@ -1,0 +1,15 @@
+disabled_rules:
+    - trailing_whitespace
+    - nesting
+excluded:
+    - Pods
+    - R.generated.swift
+    - MyCakeTests
+    - MyCakeUITests
+line_length:
+    warning: 150
+    error: 200
+file_length:
+    warning: 500
+    error: 1000
+

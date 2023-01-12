@@ -1,0 +1,11 @@
+/* 
+  Localizable.strings
+  MyCake
+
+  Created by Петр Постников on 08.08.2022.
+  
+*/
+
+// MARK: Авторизация
+"login.username" = "Логин";
+"login.password" = "Пароль";
